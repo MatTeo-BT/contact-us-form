@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <section class="big-container">
+        <div class="container">
+            <h2>Restiamo in Contatto!</h2>
+            <form action="process.php" method="post">
+                <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Messaggio:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Invia</button>
+            </form>
+            <div class="social-icons">
+                <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="contact-info">
+                <div class="random-info">
+                    <h3><i class="fa-solid fa-location-dot"></i></h3>
+                    <p>Via Roma, 5</p>
+                    <p>Roma, RM, 00185</p>
+
+                </div>
+                <div class="random-info">
+                    <h3><i class="fa-solid fa-phone"></i></h3>
+                    <p> +39 345 678 8998</p>
+                    <p> +39 06 634 78998</p>
+                </div>
+                <div class="random-info">
+                    <h3><i class="fa-solid fa-globe"></i></h3>
+                    <p><a href=" topcocktailsbar@gmail.com"> topcocktailsbar@gmail.com</a></p>
+                    <p> <a href=" https://bestcocktailintwon.com"> https://bestcocktailintwon.com" </a></p>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
